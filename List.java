@@ -19,7 +19,7 @@ public class List {
       while (a!=false){
         int input =sc.nextInt();
         list.add(input);
-        System.out.println("do you want to continue giving input: True or False");
+        System.out.println("do you want to continue giving input: True or False ?" );
         a=sc.nextBoolean();
       }
       System.out.println(list);
